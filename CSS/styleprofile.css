@@ -1,0 +1,140 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+#main {
+    min-height: 570px;
+    padding: 0 0 50px 0;
+    background-color: #214151;
+    color: white;
+}
+
+#main a{
+    color:white;
+}
+
+#main a:hover{
+    color: #FFB344;
+    transition: 0.2s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.main_content {
+    margin-top: 200px;
+}
+
+.header_part {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.paragraph_part {
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 28px;
+    color: rgb(169, 169, 169)
+}
+
+.main_content a {
+    color: white;
+    font-weight: bold;
+}
+.main_content p{
+    font-size: 15px;
+}
+.main_photo {
+    float: right;
+    margin-top: 80px;
+    border-radius: 1000px;
+    -webkit-box-shadow: 10px 10px 4px #000000;
+}
+
+#aboutme {
+    padding: 10px 0 50px 0;
+    background-color: #FFF8E5;
+}
+
+.aboutme_content {
+    margin-top: 80px;
+}
+
+.aboutme_content p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aboutme_photo {
+    float: left;
+    margin-top: 75px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 4px #4d4d4d;
+}
+
+#myworks {
+    padding: 10px 0 50px 0;
+    background: #FFB344;
+}
+
+#myworks .header_part {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+#myworks .myphotos{
+    margin: 10px;
+    box-shadow: 1px 2px 4px #4d4d4d;
+    -webkit-box-shadow: 10px 10px 4px #4d4d4d;
+    -moz-box-shadow: 1px 2px 4px #4d4d4d;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+#myworks .myphotos:hover{
+    transform: scale(1.1);
+    animation: forwards;
+}
+
+#contacts {
+    padding: 10px 0 50px 0;
+    background: #214151;
+}
+
+#contacts h1 {
+    color: white;
+    padding-top: 45px;
+    border-bottom: 1.5px solid white;
+    text-align: center;
+}
+
+#contacts ul {
+    width: 150px;
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+#contacts li {
+    margin-top: 5px;
+}
+
+#contacts li a {
+    color: white;
+    transition: 0.2s;
+}
+
+#contacts li a:hover {
+    color:#FFB344;
+    transition: 0.2s;
+}
+
+li,a {
+    font-size: 16px;
+    text-decoration: none;
+}
